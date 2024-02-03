@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.homepage                  = 'https://hyperswitch.io/'
     s.author                    = 'Hyperswitch'
     s.license                   = { :type => 'MIT', :file => 'LICENSE' }
-    s.platforms                 = { ios: "11.0", watchos: "2.0" }
+    s.platforms                 = { ios: "11.0" }
     s.source                    = {
       http: "https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/#{version}/react-native-artifacts-#{version}-hermes-ios-debug.tar.gz"
     }
